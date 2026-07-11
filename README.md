@@ -70,14 +70,3 @@ Evaluation of marginal covariate effects on the hazard of death using the optima
 
 ---
 
-## Repository Structure & Local Execution
-
-```text
-├── data/
-│   └── LungCancer-2.txt             # Raw trial dataset
-├── scripts/
-│   └── survival_analysis.R          # R script for data cleaning, KM curves, Cox PH, and parametric models
-├── outputs/
-│   ├── figures/                     # Exported Kaplan-Meier survival plots
-│   └── report_medical_audience.pdf  # Clinical executive report
-└── README.md                        # Project documentation
